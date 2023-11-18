@@ -1,0 +1,55 @@
+.div0{
+    visibility: hidden;
+    animation: widthIncrease2 3.5s ease-in 0.5s forwards ;
+}
+.div1{
+    visibility: hidden;
+    animation: widthIncrease 1s ease-in 4s forwards;
+}
+.div2{
+    visibility: hidden;
+    animation: widthIncrease 1s ease-in 5s forwards ;
+}
+.div3{
+    visibility: hidden;
+    animation: widthIncrease 1s ease-in 6s forwards ;
+}
+.div4{
+    visibility: hidden;
+    animation: widthIncrease 1s ease-in 7s forwards ;
+}
+.div5{
+    visibility: hidden;
+    animation: widthIncrease 1s ease-in 8s forwards ;
+}
+.div6{
+    visibility: hidden;
+    animation: widthIncrease 1s ease-in 9s forwards ;
+}
+.div7{
+    visibility: hidden;
+    animation: widthIncrease 1s ease-in 10s forwards ;
+}
+
+@keyframes widthIncrease {
+    from{
+        visibility: visible;
+    
+    }
+    to{
+        visibility: visible;
+    
+    }
+    
+}
+@keyframes widthIncrease2 {
+    from{
+        visibility: visible;
+    
+    }
+    to{
+        visibility: none;
+    
+    }
+    
+}
