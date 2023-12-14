@@ -10,9 +10,9 @@ function App() {
   return (
 
     <BrowserRouter>
-      <div className='w-full h-h8 px-10 bg-violet-900 flex items-center  justify-between border-b-2 border-gray-600'>
+      <div className='w-full h-h8 px-10 bg-black_bg flex items-center  justify-between border-b-2 border-gray-600'>
        <Link to="/"> <img src="https://cdn-icons-png.flaticon.com/512/2665/2665280.png" alt="" className=' w-16 h-16 ' /></Link>
-        <Link to="/model" className=' text-white font-semibold  hover:text-red-500'>ML Model</Link>
+        <Link to="/model" className=' text-white font-font-1 font-semibold  hover:text-red-500'>ML Model</Link>
       </div>
       <Routes>
         <Route path="/" element={<Home/>}/>

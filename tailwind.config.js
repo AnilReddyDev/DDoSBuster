@@ -21,13 +21,20 @@ export default {
       '2xl': '1636px',
       // => @media (min-width: 1536px) { ... }
     },
+    fontFamily:{
+      'font-1': ['Silkscreen', 'sans-serif'],
+      'font-2': ['Teko', 'sans-serif'],
+      'font-3': ['Source Code Pro', 'monospace']
+    },
     extend: {
      height:{
       h8:"8vh",
       h92:"92vh",
      },
      colors:{
-      whi:"#030202"
+      whi:"#030202",
+      black_bg:"#111519",
+      lightred:"#f04f4f"
      }
     },
   },

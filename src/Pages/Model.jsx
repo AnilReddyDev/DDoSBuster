@@ -47,7 +47,7 @@ export default function Model() {
       <div className='w-full h-h92 flex flex-col justify-center items-center bg-whi'>
         <div className='w-full text-white flex justify-center items-center flex-col'>
           <div
-            className="w-11/12 sm:w-9/12 text-medium sm:text-xl font-mono h-56 flex justify-center items-center flex-col border-dashed border-slate-300  border-4"
+            className="w-11/12 sm:w-9/12 font-font-2 text-medium sm:text-4xl  h-56 flex justify-center items-center flex-col border-dashed border-slate-300  border-4"
             onDragOver={handleDragOver}
             onDragLeave={handleDragLeave}
             onDrop={handleDrop}
@@ -60,15 +60,15 @@ export default function Model() {
               onChange={handleFileInputChange}
             />
           </div>
-          <p className='pt-8 text-2xl  font-mono'>Uploaded files:</p>
-          <ul>
+          <p className='pt-8 text-2xl  font-font-2'>Uploaded files:</p>
+          <ul className='font-font-2'>
             {uploadedFiles.map((file, index) => (
               <li key={index} className='text-2xl font-mono '>{file.name}</li>
             ))}
           </ul>
           
         </div>
-        <button onClick={fetchOutput} className='px-8 py-4 rounded-md text-white text-xl font-mono bg-red-700 mt-10'>Get Insights</button>
+        <button onClick={fetchOutput} className='sm:px-8 sm:py-4 px-5 py-2 flex justify-center items-center rounded-md text-white text-4xl font-font-2 bg-red-700 mt-10'>Get Insights</button>
       </div>
 
       
